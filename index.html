@@ -1,0 +1,838 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="株式会社O-kunは徳島県徳島市のIT・AI企業。ホームページ制作・運用、AI導入支援、AIコンサルティング、AI研修まで一貫して支援します。代表は池田大智・楠本冴伊。初回商談にデモサイトを持参します。">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<meta name="googlebot" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<meta name="author" content="株式会社O-kun">
+<meta name="keywords" content="株式会社O-kun,O-kun,徳島 IT企業,徳島 AI企業,徳島 ホームページ制作,AI導入支援,AIコンサルティング,AI研修,池田大智,楠本冴伊,徳島大学発">
+<meta name="geo.region" content="JP-36">
+<meta name="geo.placename" content="徳島県徳島市">
+<!-- TODO: 公開ドメイン確定後、以下2行の https://example.com を実際のURLに書き換えてコメントを外してください(SEOで重要)
+<link rel="canonical" href="https://example.com/">
+<meta property="og:url" content="https://example.com/">
+-->
+<meta name="theme-color" content="#fbfaf7">
+<title>株式会社O-kun｜徳島のホームページ制作・AI導入支援</title>
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:site_name" content="株式会社O-kun">
+<meta property="og:title" content="株式会社O-kun｜できる、どうやろう。">
+<meta property="og:description" content="徳島発。初回商談にデモサイトを持参するホームページ制作と、現場に定着するAI導入・活用支援。">
+<!-- TODO: ドメイン確定後は og.jpg を絶対URL(例 https://example.com/og.jpg)に変更するとSNSシェアで確実に画像が表示されます -->
+<meta property="og:image" content="og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="株式会社O-kun｜できる、どうやろう。">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="株式会社O-kun｜できる、どうやろう。">
+<meta name="twitter:description" content="徳島発。ホームページ制作とAI導入・活用支援。">
+<meta name="twitter:image" content="og.jpg">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":["Organization","LocalBusiness"],
+      "@id":"#organization",
+      "name":"株式会社O-kun",
+      "alternateName":["O-kun","O-kun Inc."],
+      "slogan":"できる、どうやろう。",
+      "description":"徳島県徳島市のIT・AI企業。ホームページ制作・運用、AI導入支援、AIコンサルティング、AI研修を行っています。徳島大学在学中の池田大智と楠本冴伊が設立しました。",
+      "email":"ohkun1121@gmail.com",
+      "logo":{"@type":"ImageObject","url":"o-kun-logo.png","width":1393,"height":347},
+      "image":"og.jpg",
+      "foundingDate":"2025-09-17",
+      "identifier":{"@type":"PropertyValue","propertyID":"法人番号","value":"8480001012955"},
+      "address":{"@type":"PostalAddress","postalCode":"770-0006","addressRegion":"徳島県","addressLocality":"徳島市","streetAddress":"北矢三町1丁目3番4-7号","addressCountry":"JP"},
+      "areaServed":[{"@type":"AdministrativeArea","name":"徳島県"},{"@type":"Country","name":"日本"}],
+      "knowsAbout":["ホームページ制作","Webデザイン","Webサイト運用","生成AI","AI導入支援","AIコンサルティング","AI研修","業務効率化","DX支援"],
+      "founder":[{"@id":"#founder-ikeda"},{"@id":"#founder-kusumoto"}],
+      "contactPoint":{"@type":"ContactPoint","contactType":"customer support","email":"ohkun1121@gmail.com","availableLanguage":"ja"},
+      "sameAs":["https://www.instagram.com/ohkun1121/"],
+      "hasOfferCatalog":{
+        "@type":"OfferCatalog",
+        "name":"事業内容",
+        "itemListElement":[
+          {"@type":"Offer","itemOffered":{"@type":"Service","name":"ホームページ制作・運用","description":"初回商談にデモサイトを持参するホームページ制作。初期制作費5万円・月額1万円で更新・保守まで対応。"}},
+          {"@type":"Offer","itemOffered":{"@type":"Service","name":"AI導入支援","description":"AIツールの選定・比較から初期設定、社内ルール策定、定型業務の自動化まで実務レベルで支援。"}},
+          {"@type":"Offer","itemOffered":{"@type":"Service","name":"AIコンサルティング","description":"業務の棚卸しからAI活用領域の特定、導入ロードマップ策定、効果検証まで伴走。"}},
+          {"@type":"Offer","itemOffered":{"@type":"Service","name":"AI研修","description":"生成AIの基礎から職種別の実務活用まで、翌日から業務で使えることをゴールにした研修。"}}
+        ]
+      }
+    },
+    {
+      "@type":"Person",
+      "@id":"#founder-ikeda",
+      "name":"池田 大智",
+      "jobTitle":"代表取締役",
+      "worksFor":{"@id":"#organization"},
+      "affiliation":{"@type":"CollegeOrUniversity","name":"徳島大学"},
+      "knowsAbout":["生成AI","ホームページ制作","AI導入支援"]
+    },
+    {
+      "@type":"Person",
+      "@id":"#founder-kusumoto",
+      "name":"楠本 冴伊",
+      "jobTitle":"代表取締役",
+      "worksFor":{"@id":"#organization"},
+      "affiliation":{"@type":"CollegeOrUniversity","name":"徳島大学"},
+      "knowsAbout":["生成AI","ホームページ制作","AI導入支援"]
+    },
+    {
+      "@type":"WebSite",
+      "@id":"#website",
+      "name":"株式会社O-kun",
+      "inLanguage":"ja-JP",
+      "publisher":{"@id":"#organization"}
+    },
+    {
+      "@type":"WebPage",
+      "@id":"#webpage",
+      "name":"株式会社O-kun|徳島のホームページ制作・AI導入支援",
+      "isPartOf":{"@id":"#website"},
+      "about":{"@id":"#organization"},
+      "inLanguage":"ja-JP"
+    }
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#fbfaf7;
+  --paper:#ffffff;
+  --soft:#edf2f8;
+  --soft-blue:#e3ebf6;
+  --ink:#152238;
+  --navy:#17345f;
+  --sub:#596779;
+  --faint:#8993a0;
+  --line:#d6dce3;
+  --blue:#245fca;
+  --blue-dark:#184a9e;
+  --max:1200px;
+  --jp:"Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+  --en:"Manrope","Helvetica Neue",Arial,sans-serif;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:auto;scroll-padding-top:86px}
+body{
+  margin:0;
+  overflow-x:clip;
+  background:var(--bg);
+  color:var(--ink);
+  font-family:var(--jp);
+  font-size:17px;
+  line-height:1.85;
+  letter-spacing:.015em;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit;text-decoration:none}
+button,input,select,textarea{font:inherit}
+button{cursor:pointer}
+::selection{background:var(--blue);color:#fff}
+.hero-lead,.sec-lead,.mission p,.feature p,.card p,.tl p,.co-copy p,.ct-copy p{
+  line-break:strict;
+  text-wrap:pretty;
+  word-break:normal;
+  overflow-wrap:break-word;
+}
+h1,h2,h3{
+  line-break:strict;
+  text-wrap:balance;
+  word-break:auto-phrase;
+}
+.wrap{width:min(calc(100% - 64px),var(--max));margin:auto}
+.sec{padding:84px 0}
+.sec.alt{background:var(--soft)}
+
+/* Typography and reusable elements */
+.eyebrow{
+  display:flex;
+  align-items:center;
+  gap:14px;
+  margin:0;
+  color:var(--blue);
+  font:700 13px/1.2 var(--en);
+  letter-spacing:.14em;
+}
+.eyebrow::before{content:"";width:38px;height:2px;background:currentColor;border-radius:99px}
+.sec h2.title{
+  max-width:870px;
+  margin:22px 0 0;
+  font-size:clamp(38px,4.6vw,58px);
+  font-weight:700;
+  line-height:1.35;
+  letter-spacing:-.045em;
+}
+.sec-lead{max-width:600px;margin:24px 0 0;color:var(--sub);font-size:17px;line-height:1.9}
+.sec-head{display:grid;grid-template-columns:1.05fr .75fr;column-gap:86px;align-items:end;margin-bottom:48px}
+.sec-head .eyebrow{grid-column:1/-1}
+.sec-head .sec-lead{margin-bottom:8px}
+.btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:34px;
+  min-width:190px;
+  min-height:54px;
+  padding:0 22px;
+  border:1px solid var(--navy);
+  border-radius:7px;
+  font-size:15px;
+  font-weight:700;
+  letter-spacing:.02em;
+  line-height:1;
+  transition:transform .2s,background .2s,color .2s,border-color .2s;
+}
+.btn:hover{transform:translateY(-2px)}
+.btn-fill{background:var(--navy);color:#fff}
+.btn-fill:hover{background:var(--blue);border-color:var(--blue)}
+.btn-line{background:rgba(255,255,255,.72);color:var(--navy)}
+.btn-line:hover{border-color:var(--blue);color:var(--blue)}
+.btn .ar{font-family:var(--en);transition:transform .25s}
+.btn:hover .ar{transform:translateX(4px)}
+
+/* Transparent brand lockup */
+.logo{display:inline-flex;align-items:center}
+.logo-lockup{display:block;width:158px;background:transparent}
+.logo-lockup img{display:block;width:100%;height:auto}
+.logo svg,.logo .wd{display:none}
+
+/* Header */
+header{
+  position:fixed;
+  inset:0 0 auto;
+  z-index:50;
+  background:rgba(251,250,247,.94);
+  border-bottom:1px solid rgba(214,220,227,.9);
+  -webkit-backdrop-filter:blur(16px);
+  backdrop-filter:blur(16px);
+}
+.nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:28px}
+.gnav{display:flex;gap:32px;margin-left:auto;font-size:14px;font-weight:700}
+.gnav a{position:relative;padding:8px 0;color:#46566c;transition:color .2s}
+.gnav a::after{content:"";position:absolute;left:0;right:0;bottom:2px;height:2px;border-radius:99px;background:var(--blue);transform:scaleX(0);transform-origin:right;transition:transform .25s}
+.gnav a:hover{color:var(--ink)}
+.gnav a:hover::after{transform:scaleX(1);transform-origin:left}
+.nav-right{display:flex;align-items:center;gap:12px}
+.ig{width:38px;height:38px;border:0;border-radius:10px;display:grid;place-items:center;background:transparent;transition:transform .2s}
+.ig:hover{transform:translateY(-2px)}
+.ig svg{width:29px;height:29px;filter:drop-shadow(0 6px 9px rgba(190,25,116,.15))}
+.nav-cta{padding:12px 20px;border-radius:7px;background:var(--navy);color:#fff;font-size:14px;font-weight:700;transition:background .2s}
+.nav-cta:hover{background:var(--blue)}
+.menu-btn{display:none;background:none;border:0;width:44px;height:44px;position:relative}
+.menu-btn span,.menu-btn span::before,.menu-btn span::after{content:"";position:absolute;left:9px;right:9px;height:2px;background:var(--ink);border-radius:2px;transition:.3s}
+.menu-btn span{top:21px}
+.menu-btn span::before{left:0;right:0;top:-8px}
+.menu-btn span::after{left:0;right:0;top:8px}
+.menu-btn[aria-expanded="true"] span{background:transparent}
+.menu-btn[aria-expanded="true"] span::before{top:0;transform:rotate(45deg)}
+.menu-btn[aria-expanded="true"] span::after{top:0;transform:rotate(-45deg)}
+
+/* Hero */
+.hero{position:relative;overflow:hidden;min-height:auto;padding:128px 0 0;background:linear-gradient(180deg,#fbfaf7 0%,#f5f7f9 100%)}
+.hero .wrap{position:relative}
+.hero-layout{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(330px,.62fr);gap:88px;align-items:start}
+.hero-copy{min-width:0}
+h1{max-width:860px;margin:0;font-size:clamp(58px,6.8vw,84px);font-weight:700;line-height:1.13;letter-spacing:-.065em}
+h1 .l1,h1 .l2{display:block}
+h1 .l2{position:static;width:auto;max-width:none}
+h1 .l2::after{display:none}
+h1 .dot{color:var(--blue)}
+.hero-lead{max-width:760px;margin:32px 0 0;color:var(--sub);font-size:18px;line-height:1.95}
+.hero-lead b{color:var(--ink);font-weight:700}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:34px}
+.hero-side{margin-top:6px;border-top:2px solid var(--navy);counter-reset:hero-fact}
+.hero-side-fact{padding:25px 0;border-bottom:1px solid var(--line);counter-increment:hero-fact}
+.hero-side-fact p{position:relative;margin:0;padding-left:42px;font-size:18px;font-weight:700;line-height:1.55;letter-spacing:-.02em}
+.hero-side-fact p::before{content:"0" counter(hero-fact);position:absolute;left:0;top:.42em;color:var(--blue);font:700 11px/1 var(--en);letter-spacing:.1em}
+.hero-side-fact small{display:block;margin-top:7px;color:var(--sub);font-size:14px;font-weight:400;line-height:1.65;letter-spacing:0}
+.facts{
+  width:100%;
+  margin-top:62px;
+  overflow:hidden;
+  border-top:1px solid rgba(255,255,255,.2);
+  border-bottom:1px solid rgba(255,255,255,.2);
+  background:var(--navy);
+  color:#fff;
+}
+.fact-track{display:flex;width:max-content;animation:fact-belt 34s linear infinite;will-change:transform}
+.fact-set{display:flex;flex:none}
+.fact{display:flex;align-items:center;min-width:clamp(420px,38vw,570px);padding:22px 34px;border:0;border-right:1px solid rgba(255,255,255,.22);border-radius:0;background:transparent;box-shadow:none}
+.fact i{display:none}
+.fact p{display:flex;align-items:center;gap:22px;margin:0;white-space:nowrap;font-size:18px;font-weight:700;line-height:1.5;letter-spacing:-.02em}
+.fact p::before{content:"●";color:#69a3ff;font-size:9px}
+.fact p small{display:block;color:#c8d4e5;font-size:14px;font-weight:400;line-height:1.65;letter-spacing:0}
+@keyframes fact-belt{to{transform:translateX(-50%)}}
+
+/* Mission */
+.mission{background:var(--paper);border-top:1px solid var(--line)}
+.mission .wrap{max-width:1040px;display:block}
+.mission h2{max-width:900px;margin:21px 0 0;font-size:clamp(34px,3.9vw,48px);font-weight:700;line-height:1.55;letter-spacing:-.04em}
+.mission h2 em{color:var(--blue);font-style:normal}
+.mission .wrap>div{max-width:850px;margin:36px 0 0;padding:0;border:0}
+.mission p{margin:0 0 25px;color:var(--sub);font-size:17px;line-height:2}
+.mission p b{color:var(--ink)}
+
+/* Services */
+#service{background:var(--soft)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:2px solid var(--navy)}
+.feature{
+  grid-column:1/-1;
+  display:grid;
+  grid-template-columns:1.14fr .86fr;
+  gap:74px;
+  margin:0;
+  padding:58px 0;
+  border:0;
+  border-bottom:1px solid var(--line);
+  border-radius:0;
+  background:transparent;
+  box-shadow:none;
+}
+.feature .no,.card .no{color:var(--blue);font:700 12px/1 var(--en);letter-spacing:.12em}
+.feature h3{margin:19px 0 22px;font-size:clamp(31px,3.3vw,43px);font-weight:700;line-height:1.4;letter-spacing:-.04em}
+.feature-copy>p{margin:0 0 20px;color:#4e5f72;font-size:16px;line-height:1.95}
+.feature-copy>p b{color:var(--ink)}
+.feature-points{display:grid;gap:10px;margin-top:30px}
+.fp{display:flex;gap:12px;align-items:flex-start;margin:0;font-size:15px;font-weight:700;line-height:1.8}
+.fp::before{content:"↗";display:block;flex:none;width:auto;height:auto;margin:0;border-radius:0;background:none;color:var(--blue);font-size:15px}
+.price-box{align-self:start;padding:34px;border:1px solid #cbd6e4;border-radius:0;background:rgba(255,255,255,.72);box-shadow:none}
+.price-box .pb-label{margin:0;color:var(--sub);font:700 12px/1 var(--en);letter-spacing:.14em}
+.price-rows{margin-top:21px}
+.price-row{display:flex;justify-content:space-between;align-items:baseline;padding:18px 0;border-bottom:1px solid var(--line)}
+.price-row span{color:var(--sub);font-size:14px;font-weight:700}
+.price-row b{font:700 34px/1 var(--en);letter-spacing:-.04em}
+.price-row b small{margin-left:4px;color:var(--sub);font:700 13px/1 var(--jp)}
+.price-inc{margin:21px 0 0;padding:0;list-style:none}
+.price-inc li{display:flex;gap:11px;padding:5px 0;color:var(--sub);font-size:14px;line-height:1.7}
+.price-inc li::before{content:"—";width:auto;height:auto;margin:0;border-radius:0;background:none;color:var(--blue)}
+.price-note{margin:18px 0 0;color:var(--faint);font-size:12px;line-height:1.8}
+.card{min-height:365px;padding:38px 32px;border:0;border-right:1px solid var(--line);border-bottom:1px solid var(--line);border-radius:0;background:transparent;box-shadow:none;transition:none}
+.feature + .card{border-left:1px solid var(--line)}
+.card:hover{transform:none;border-color:var(--line);box-shadow:none}
+.card h3{margin:18px 0 15px;white-space:nowrap;font-size:24px;font-weight:700;letter-spacing:-.025em}
+.card>p{margin:0 0 25px;color:var(--sub);font-size:15.5px;line-height:1.9}
+.card ul{margin:0;padding:0;border-top:1px solid var(--line);list-style:none}
+.card li{display:flex;gap:10px;padding:11px 0;border-bottom:1px solid var(--line);font-size:14px;line-height:1.75}
+.card li::before{content:"—";width:auto;height:auto;margin:0;border-radius:0;background:none;color:var(--blue)}
+.sv-note{margin-top:26px;color:var(--sub);font-size:13px;line-height:1.8}
+
+/* Process */
+#speed{background:var(--paper)}
+.speed-head{display:grid;grid-template-columns:1fr .82fr;gap:84px;align-items:end;margin-bottom:60px}
+.speed-head h2{margin:20px 0 0;font-size:clamp(36px,4.3vw,53px);font-weight:700;line-height:1.42;letter-spacing:-.045em}
+.speed-head h2 em{font-style:normal;white-space:normal;color:var(--blue)}
+.speed-head h2 em::after{display:none}
+.speed-head>p{margin:0 0 7px;color:var(--sub);font-size:16px;line-height:1.95}
+.timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:0;position:relative;border-top:2px solid var(--navy)}
+.timeline::before{display:none}
+.tl{min-height:280px;padding:31px 27px 0 0;border:0;border-radius:0;background:transparent;box-shadow:none}
+.tl+.tl{padding-left:27px;border-left:1px solid var(--line)}
+.tl .stno{display:block;width:auto;height:auto;margin:0;border-radius:0;background:none;color:var(--blue);font:700 12px/1 var(--en)}
+.tl h3{margin:23px 0 12px;font-size:21px;font-weight:700;letter-spacing:-.02em}
+.tl p{margin:0;color:var(--sub);font-size:15px;line-height:1.85}
+.tl .badge{position:static;display:inline-block;margin:0 0 17px;padding:6px 10px;border-radius:5px;background:var(--navy);color:#fff;font-size:11px;font-weight:700;letter-spacing:.06em}
+.tl .badge+.stno{display:inline-block;margin-left:9px}
+.speed-note{display:flex;gap:17px;align-items:flex-start;margin-top:34px;padding:21px 24px;border:1px solid #cbd6e4;border-radius:10px;background:var(--soft);color:#425166;font-size:15px;line-height:1.85}
+.speed-note::before{content:"NOTE";width:auto;height:auto;margin-top:5px;border-radius:0;background:none;color:var(--blue);font:700 11px/1 var(--en);letter-spacing:.1em}
+
+/* Company */
+#company{background:var(--paper)}
+.co-grid{display:grid;grid-template-columns:1fr .92fr;gap:90px;align-items:start}
+.co-copy h3{margin:0 0 27px;font-size:clamp(28px,3.2vw,37px);font-weight:700;line-height:1.6;letter-spacing:-.035em}
+.co-copy p{margin:0 0 21px;color:var(--sub);font-size:16px;line-height:1.95}
+.founders{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:34px}
+.founder{padding:25px;border:1px solid var(--line);border-radius:12px;background:var(--bg);box-shadow:none}
+.founder .role{margin:0;color:var(--blue);font-size:12px;font-weight:700;letter-spacing:.1em}
+.founder .nm{margin:10px 0 4px;font-size:22px;font-weight:700;letter-spacing:.04em}
+.founder .sub2{margin:0;color:var(--sub);font-size:14px}
+.details{padding:0;border:0;border-top:2px solid var(--navy);border-radius:0;background:transparent;box-shadow:none}
+.details div{display:grid;grid-template-columns:112px 1fr;gap:23px;padding:18px 0;border-bottom:1px solid var(--line);font-size:15px;line-height:1.75}
+.details span:first-child{color:var(--sub);font-weight:700}
+
+/* Contact: soft transition, no black block */
+#contact{background:linear-gradient(180deg,var(--soft-blue) 0%,#dfe8f4 100%);color:var(--ink);border-top:1px solid #d0dae7}
+.ct-grid{display:grid;grid-template-columns:.78fr 1.22fr;gap:88px;align-items:start}
+.ct-copy{position:static}
+.ct-copy .eyebrow{color:var(--blue)}
+.ct-copy h2{margin:21px 0 28px;font-size:clamp(38px,4.6vw,56px);font-weight:700;line-height:1.4;letter-spacing:-.05em}
+.ct-copy h2 em{color:var(--blue);font-style:normal}
+.ct-copy p{margin:0 0 18px;color:#506178;font-size:16px;line-height:1.95}
+.ct-sns{display:flex;align-items:center;gap:14px;margin-top:32px}
+.ct-sns .lbl{color:#5a687b;font-size:14px;font-weight:700}
+.ig-lg{display:grid;place-items:center;width:42px;height:42px;border:0;border-radius:11px;background:transparent;color:inherit;box-shadow:none;transition:transform .2s}
+.ig-lg:hover{transform:translateY(-2px)}
+.ig-lg svg{width:32px;height:32px;filter:drop-shadow(0 6px 9px rgba(190,25,116,.16))}
+.form-card{padding:42px;border:1px solid #cbd6e4;border-radius:10px;background:rgba(255,255,255,.94);color:var(--ink);box-shadow:none}
+.form-grid{display:grid;gap:22px}
+.form-grid textarea{resize:vertical}
+.form-grid label{font-size:14px;font-weight:700;letter-spacing:.02em}
+.form-grid label i{margin-left:6px;color:var(--blue);font-size:11px}
+.form-grid input,.form-grid select,.form-grid textarea{width:100%;margin-top:9px;padding:15px 16px;border:1px solid #ccd4de;border-radius:8px;outline:none;background:#f8f9fb;color:var(--ink);font-size:16px;transition:.2s}
+.form-grid input:focus,.form-grid select:focus,.form-grid textarea:focus{border-color:var(--blue);background:#fff;box-shadow:0 0 0 4px rgba(36,95,202,.09)}
+.form-note{margin:0;color:var(--faint);font-size:12px;line-height:1.75}
+.form-ok{display:none;text-align:center;padding:42px 10px}
+.form-ok .okmark{display:grid;place-items:center;width:54px;height:54px;margin:0 auto 22px;border-radius:50%;background:#e5edf8;color:var(--blue);font-size:22px;font-weight:700}
+.form-ok h3{margin:0 0 11px;font-size:23px}
+.form-ok p{margin:0;color:var(--sub);font-size:15px;line-height:1.9}
+.form-err{display:none;margin:0;padding:13px 15px;border-radius:7px;background:#fff0ef;color:#a6382c;font-size:14px;font-weight:700}
+
+/* Footer */
+footer{padding:52px 0 28px;border-top:1px solid var(--line);background:var(--bg)}
+.foot-top{display:flex;justify-content:space-between;align-items:center;gap:34px;flex-wrap:wrap;margin-bottom:38px}
+.foot-nav{display:flex;align-items:center;gap:27px;color:var(--sub);font-size:14px;font-weight:700}
+.foot-nav a:hover{color:var(--blue)}
+.foot-btm{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;padding-top:22px;border-top:1px solid var(--line);color:var(--faint);font-size:12px}
+
+.rv{opacity:1;transform:none}
+.rv.on{opacity:1;transform:none}
+:focus-visible{outline:3px solid rgba(36,95,202,.55);outline-offset:3px}
+
+@media(max-width:1020px){
+  .hero-layout{grid-template-columns:1fr;gap:48px}
+  .hero-side{display:grid;grid-template-columns:repeat(3,1fr);margin-top:0}
+  .hero-side-fact{padding:23px 20px 23px 0}
+  .hero-side-fact+.hero-side-fact{padding-left:20px;border-left:1px solid var(--line)}
+  .mission .wrap,.feature,.speed-head,.co-grid,.ct-grid{grid-template-columns:1fr;gap:48px}
+  .sec-head{grid-template-columns:1fr;gap:20px}
+  .sec-head .eyebrow{grid-column:1}
+  .cards{grid-template-columns:1fr}
+  .card{min-height:auto}
+  .card,.feature + .card{border-left:0;border-right:0}
+  .timeline{grid-template-columns:1fr 1fr}
+  .tl:nth-child(3){padding-left:0;border-left:0;border-top:1px solid var(--line)}
+  .tl:nth-child(4){border-top:1px solid var(--line)}
+}
+
+@media(max-width:780px){
+  body{font-size:16px}
+  .wrap{width:min(calc(100% - 38px),var(--max))}
+  .nav{height:68px}
+  .logo-lockup{width:130px}
+  .gnav,.nav-cta{display:none}
+  .menu-btn{display:block}
+  .gnav.open{display:flex;position:fixed;inset:68px 0 auto;flex-direction:column;gap:0;margin:0;padding:17px 21px;background:var(--bg);border-bottom:1px solid var(--line)}
+  .gnav.open a{padding:14px 0;border-bottom:1px solid var(--line);font-size:15px}
+  .sec{padding:68px 0}
+  .hero{padding:96px 0 48px}
+  .hero-layout{gap:34px}
+  .hero-side{display:block}
+  .hero-side-fact,.hero-side-fact+.hero-side-fact{padding:20px 0;border-left:0}
+  h1{font-size:clamp(48px,13.2vw,64px)}
+  .hero-lead{font-size:16px}
+  .facts{margin-top:46px}
+  .fact{min-width:355px;padding:18px 24px}
+  .fact p{gap:14px;font-size:16px}
+  .fact p small{font-size:12.5px}
+  .sec h2.title,.mission h2,.speed-head h2,.ct-copy h2{font-size:35px}
+  .mission h2 br,.speed-head h2 br,.ct-copy h2 br{display:none}
+  .feature{padding:38px 0;gap:34px;border-radius:0}
+  .feature-copy>p{font-size:15px}
+  .price-box{padding:27px 22px}
+  .price-row b{font-size:30px}
+  .card{padding:31px 24px}
+  .timeline{grid-template-columns:1fr}
+  .tl,.tl+.tl,.tl:nth-child(3),.tl:nth-child(4){min-height:auto;padding:27px 0;border-left:0;border-top:0;border-bottom:1px solid var(--line)}
+  .tl p{font-size:15px}
+  .founders{grid-template-columns:1fr}
+  .details div{grid-template-columns:92px 1fr;gap:14px;font-size:14px}
+  .form-card{padding:29px 21px}
+  .form-grid input,.form-grid select,.form-grid textarea{font-size:16px}
+  .foot-top{align-items:flex-start}
+  .foot-nav{align-items:flex-start;flex-direction:column;gap:13px}
+}
+
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .rv{opacity:1;transform:none;transition:none}
+  .fact-track{animation-play-state:paused}
+  *{transition-duration:.01ms!important}
+}
+
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#top" aria-label="株式会社O-kun トップへ">
+      <span class="logo-lockup"><img src="data:image/webp;base64,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" alt="株式会社O-kun ロゴ" width="480" height="120" decoding="async"></span>
+    </a>
+    <nav class="gnav" id="gnav" aria-label="メインメニュー">
+      <a href="#service">事業内容</a>
+      <a href="#speed">進め方</a>
+      <a href="#company">会社概要</a>
+      <a href="#contact">お問い合わせ</a>
+    </nav>
+    <div class="nav-right">
+      <a class="ig" href="https://www.instagram.com/ohkun1121/" target="_blank" rel="noopener" aria-label="Instagramを開く">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><defs><radialGradient id="igHead" cx="30%" cy="100%" r="115%"><stop offset="0" stop-color="#ffd600"/><stop offset=".28" stop-color="#ff7a00"/><stop offset=".55" stop-color="#ff0169"/><stop offset=".82" stop-color="#d300c5"/><stop offset="1" stop-color="#7638fa"/></radialGradient></defs><rect width="32" height="32" rx="8.5" fill="url(#igHead)"/><rect x="7.4" y="7.4" width="17.2" height="17.2" rx="5.2" fill="none" stroke="#fff" stroke-width="2.15"/><circle cx="16" cy="16" r="4.25" fill="none" stroke="#fff" stroke-width="2.15"/><circle cx="22.05" cy="9.95" r="1.35" fill="#fff"/></svg>
+      </a>
+      <a class="nav-cta" href="#contact">無料相談</a>
+      <button class="menu-btn" aria-label="メニューを開く" aria-expanded="false" onclick="toggleMenu(this)"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ヒーロー -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-layout">
+        <div class="hero-copy">
+          <h1>
+            <span class="l1">できる<span class="dot">、</span></span>
+            <span class="l2">どうやろう<span class="dot">。</span></span>
+          </h1>
+          <p class="hero-lead">AIによって、思い描いたことは<b>「できる」</b>時代になりました。次に考えるのは、どうやろう。O-kunは、あなたのやりたいことをAIで実現に導く会社です。Webサイトの制作から、AIの導入・活用支援まで。</p>
+          <div class="actions">
+            <a class="btn btn-fill" href="#contact">無料で相談する<span class="ar">→</span></a>
+            <a class="btn btn-line" href="#service">サービスを見る<span class="ar">→</span></a>
+          </div>
+        </div>
+        <aside class="hero-side" aria-label="O-kunの特徴">
+          <div class="hero-side-fact"><p>商談当日、デモサイト持参<small>初回打ち合わせが「実物を見る日」になる</small></p></div>
+          <div class="hero-side-fact"><p>Web制作は初期5万円<small>更新・保守込みの、明朗な料金</small></p></div>
+          <div class="hero-side-fact"><p>導入して終わりにしない<small>AI活用が定着するまで伴走する</small></p></div>
+        </aside>
+      </div>
+    </div>
+    <div class="facts" aria-label="O-kunの特徴">
+      <div class="fact-track">
+        <div class="fact-set">
+          <div class="fact"><i></i><p>商談当日、デモサイト持参<small>初回打ち合わせが「実物を見る日」になる</small></p></div>
+          <div class="fact"><i></i><p>Web制作は初期5万円<small>更新・保守込みの、明朗な料金</small></p></div>
+          <div class="fact"><i></i><p>導入して終わりにしない<small>AI活用が定着するまで伴走する</small></p></div>
+        </div>
+        <div class="fact-set" aria-hidden="true">
+          <div class="fact"><i></i><p>商談当日、デモサイト持参<small>初回打ち合わせが「実物を見る日」になる</small></p></div>
+          <div class="fact"><i></i><p>Web制作は初期5万円<small>更新・保守込みの、明朗な料金</small></p></div>
+          <div class="fact"><i></i><p>導入して終わりにしない<small>AI活用が定着するまで伴走する</small></p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ミッション -->
+  <section class="sec mission">
+    <div class="wrap">
+      <p class="eyebrow rv">私たちの考え</p>
+      <h2 class="rv">「できる」は当たり前になった。<br>だから、<em>「どうやろう」</em>を一緒に考える。</h2>
+      <div class="rv">
+        <p>ホームページを作りたい。定型業務を自動化したい。問い合わせ対応を効率化したい。——少し前なら大きなコストと時間が必要だったことが、AIの登場で<b>誰にでも手が届くもの</b>になりました。</p>
+        <p>ただし、道具が手に入ることと、使いこなせることは別の話です。何を選び、どう業務に組み込み、どう定着させるか。この<b>「どうやろう」の設計と実装</b>こそが、いま成果を分けています。</p>
+        <p>O-kunは、AIを毎日の道具として使い続けてきたチームです。あなたの「やりたいこと」を聞き、実現までの道筋を設計し、Webサイトという「かたち」と、AI活用という「しくみ」の両面からかたちにします。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- サービス -->
+  <section class="sec alt" id="service">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <p class="eyebrow">事業内容</p>
+        <h2 class="title">ふたつの領域で、実現まで。</h2>
+        <p class="sec-lead">事業の顔になる「Webサイト」と、仕事のやり方を変える「AI活用」。どちらか一方でも、両方まとめてもご相談いただけます。</p>
+      </div>
+      <div class="cards">
+
+        <article class="feature rv">
+          <div class="feature-copy">
+            <p class="no">01</p>
+            <h3>ホームページ制作・運用</h3>
+            <p>私たちの強みは<b>スピード</b>です。お問い合わせをいただいたら、初回のお打ち合わせまでに<b>デモサイトを制作して持参</b>します。仕様書やワイヤーフレームではなく、動く実物を見ながら話を始める。だから判断が速く、完成イメージのズレが起きません。</p>
+            <p>デモが気に入ればその場でそのまま採用いただけますし、そこから色・構成・文章をお好みに合わせて仕上げることもできます。公開後は更新・保守までひとつのチームで継続対応します。</p>
+            <div class="feature-points">
+              <p class="fp">初回打ち合わせにデモサイトを持参。実物を見て決められる</p>
+              <p class="fp">その場で採用も、好みに合わせた修正もできる</p>
+              <p class="fp">公開後の更新・サーバー・ドメイン管理まで月額に込み</p>
+            </div>
+          </div>
+          <div class="price-box">
+            <p class="pb-label">料金</p>
+            <div class="price-rows">
+              <div class="price-row"><span>初期制作費</span><b>¥50,000</b></div>
+              <div class="price-row"><span>月額(運用・保守)</span><b>¥10,000</b></div>
+            </div>
+            <ul class="price-inc">
+              <li>写真・文章・お知らせなどの更新対応</li>
+              <li>サーバー・ドメインの管理費</li>
+              <li>セキュリティ対策・不具合対応</li>
+              <li>運用に関するご相談</li>
+            </ul>
+            <p class="price-note">※ 大規模な機能追加など、内容によってはご相談のうえお見積りします。お見積りは無料です。</p>
+          </div>
+        </article>
+
+        <article class="card rv">
+          <p class="no">02</p>
+          <h3>AI導入支援</h3>
+          <p>「使ってみたいが、何をどう入れればいいかわからない」から一緒に。ツールの選定から社内への展開まで、実務レベルで支援します。</p>
+          <ul>
+            <li>業務に合うAIツールの選定・比較</li>
+            <li>アカウント設計・初期設定・環境構築</li>
+            <li>社内利用ルール・ガイドラインの策定</li>
+            <li>定型業務の自動化・効率化の実装</li>
+          </ul>
+        </article>
+
+        <article class="card rv">
+          <p class="no">03</p>
+          <h3>AIコンサルティング</h3>
+          <p>業務の棚卸しから始めて、「どこにAIを使えば効果が出るか」を現場の実態に即して見極め、実行できる計画に落とし込みます。</p>
+          <ul>
+            <li>業務フローの整理・課題の洗い出し</li>
+            <li>費用対効果を踏まえた活用領域の特定</li>
+            <li>導入ロードマップの策定</li>
+            <li>実行フェーズの伴走・効果検証</li>
+          </ul>
+        </article>
+
+        <article class="card rv">
+          <p class="no">04</p>
+          <h3>AI研修</h3>
+          <p>「触ったことがない」方から実務での応用まで。専門用語を使わず、翌日から業務で使えることをゴールに設計します。</p>
+          <ul>
+            <li>生成AIの基礎・リテラシー研修</li>
+            <li>職種別の実務活用ワークショップ</li>
+            <li>プロンプト設計の実践トレーニング</li>
+            <li>業種・習熟度に合わせたカリキュラム</li>
+          </ul>
+        </article>
+
+      </div>
+      <p class="sv-note rv">※ AI導入支援・コンサルティング・研修の料金は、内容と期間により異なるため、ヒアリングのうえ個別にお見積りします(お見積り無料)。</p>
+    </div>
+  </section>
+
+  <!-- 進め方 -->
+  <section class="sec" id="speed">
+    <div class="wrap">
+      <div class="speed-head rv">
+        <div>
+          <p class="eyebrow">進め方</p>
+          <h2>「はじめまして」の日に、<br><em>デモをお見せします。</em></h2>
+        </div>
+        <p>一般的な制作会社では、ヒアリング→提案書→ワイヤーフレーム→デザイン案と、最初の「見える形」まで数週間かかります。O-kunは順番を逆にしました。まず作って、見ながら話す。この進め方が、意思決定を圧倒的に速くします。</p>
+      </div>
+      <div class="timeline rv">
+        <article class="tl">
+          <p class="stno">1</p>
+          <h3>ご相談</h3>
+          <p>フォームから事業内容とご希望をお送りください。この時点で費用はかかりません。</p>
+        </article>
+        <article class="tl">
+          <p class="stno">2</p>
+          <h3>デモ制作(こちらで)</h3>
+          <p>いただいた情報と公開されている情報をもとに、お打ち合わせ当日までにデモサイトを制作します。</p>
+        </article>
+        <article class="tl">
+          <span class="badge">商談当日</span>
+          <p class="stno">3</p>
+          <h3>実物を見ながら決める</h3>
+          <p>動くデモを一緒に確認。気に入ればそのまま採用、そこから色・構成・文章の調整もできます。</p>
+        </article>
+        <article class="tl">
+          <p class="stno">4</p>
+          <h3>公開・運用</h3>
+          <p>ご納得いただいた内容で公開。以降の更新・保守は月額の範囲で継続対応します。</p>
+        </article>
+      </div>
+      <p class="speed-note rv"><span><b>ご契約前に費用は発生しません。</b>デモをご覧いただいたうえで、進めるかどうかをご判断ください。内容によっては、初回のお打ち合わせ当日に公開まで進めることも可能です。</span></p>
+    </div>
+  </section>
+
+  <!-- 会社概要 -->
+  <section class="sec" id="company">
+    <div class="wrap">
+      <div class="sec-head rv">
+        <p class="eyebrow">会社概要</p>
+        <h2 class="title">AIとともに学んできた世代が、実装力で応える。</h2>
+      </div>
+      <div class="co-grid">
+        <div class="co-copy rv">
+          <p>O-kunは、徳島大学に在学する池田大智と楠本冴伊が徳島で設立した、ホームページ制作とAI活用支援のIT企業です。</p>
+          <p>私たちは、生成AIが登場した瞬間から毎日それを使い、学び、作り続けてきた世代です。<b>「AIで何ができて、何ができないか」を肌感覚で知っている</b>こと。それが、ツールの流行に振り回されない提案の土台になっています。</p>
+          <p>社歴はまだ浅い会社です。だからこそ、一件ごとの仕事の質と、費用・進行の透明性で信頼をいただくことを何より大切にしています。<b>デモを先にお見せする進め方も、「口約束ではなく実物で判断してほしい」</b>という私たちの姿勢そのものです。</p>
+          <div class="founders">
+            <div class="founder">
+              <p class="role">代表取締役</p>
+              <p class="nm">池田 大智</p>
+              <p class="sub2">徳島大学 在学</p>
+            </div>
+            <div class="founder">
+              <p class="role">代表取締役</p>
+              <p class="nm">楠本 冴伊</p>
+              <p class="sub2">徳島大学 在学</p>
+            </div>
+          </div>
+        </div>
+        <div class="details rv">
+          <div><span>会社名</span><span>株式会社O-kun</span></div>
+          <div><span>設立</span><span>2025年9月17日</span></div>
+          <div><span>所在地</span><span>〒770-0006 徳島県徳島市北矢三町1丁目3番4-7号</span></div>
+          <div><span>代表取締役</span><span>池田 大智 / 楠本 冴伊</span></div>
+          <div><span>法人番号</span><span>8480001012955</span></div>
+          <div><span>事業内容</span><span>ホームページの制作・運用 / AI導入支援 / AIコンサルティング / AI研修</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- お問い合わせ -->
+  <section class="sec alt" id="contact">
+    <div class="wrap">
+      <div class="ct-grid">
+        <div class="ct-copy rv">
+          <p class="eyebrow">お問い合わせ</p>
+          <h2>まずは、御社の<br><em>デモサイト</em>から。</h2>
+          <p>ご相談・お見積り・デモの制作まで、費用はかかりません。「何を相談すればいいかわからない」という段階でも大丈夫です。しつこい営業は行いません。</p>
+          <p>フォームを送信いただくと、受付確認のメールを自動でお送りします。担当より2営業日以内にご連絡します。</p>
+          <div class="ct-sns">
+            <span class="lbl">最新情報はこちら</span>
+            <a class="ig-lg" href="https://www.instagram.com/ohkun1121/" target="_blank" rel="noopener" aria-label="Instagramを開く">
+              <svg viewBox="0 0 32 32" aria-hidden="true"><defs><radialGradient id="igContact" cx="30%" cy="100%" r="115%"><stop offset="0" stop-color="#ffd600"/><stop offset=".28" stop-color="#ff7a00"/><stop offset=".55" stop-color="#ff0169"/><stop offset=".82" stop-color="#d300c5"/><stop offset="1" stop-color="#7638fa"/></radialGradient></defs><rect width="32" height="32" rx="8.5" fill="url(#igContact)"/><rect x="7.4" y="7.4" width="17.2" height="17.2" rx="5.2" fill="none" stroke="#fff" stroke-width="2.15"/><circle cx="16" cy="16" r="4.25" fill="none" stroke="#fff" stroke-width="2.15"/><circle cx="22.05" cy="9.95" r="1.35" fill="#fff"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="form-card rv">
+          <form id="ctForm" onsubmit="sendForm(event)">
+            <div class="form-grid">
+              <label>お名前 / 会社・店舗名<i>*</i>
+                <input name="お名前・会社名" id="f-name" required autocomplete="name" placeholder="例:徳島 太郎(○○株式会社)">
+              </label>
+              <label>メールアドレス<i>*</i>
+                <input name="email" id="f-mail" type="email" required autocomplete="email" placeholder="example@example.com">
+              </label>
+              <label>ご相談の種類
+                <select name="ご相談の種類" id="f-kind">
+                  <option>ホームページの制作・リニューアル</option>
+                  <option>ホームページの運用・乗り換え</option>
+                  <option>AI導入支援</option>
+                  <option>AIコンサルティング</option>
+                  <option>AI研修</option>
+                  <option>その他・まだ決まっていない</option>
+                </select>
+              </label>
+              <label>ご相談内容
+                <textarea name="ご相談内容" id="f-msg" rows="5" placeholder="事業内容や、やりたいこと・お困りごとを、わかる範囲でお書きください。デモ制作の参考にさせていただきます。"></textarea>
+              </label>
+              <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+              <p class="form-err" id="formErr">送信できませんでした。通信環境をご確認のうえ、もう一度お試しください。</p>
+              <button class="btn btn-fill" type="submit" id="sendBtn">この内容で相談する<span class="ar">→</span></button>
+              <p class="form-note">送信いただいた内容への返信以外の目的で、ご連絡先を使用することはありません。</p>
+            </div>
+          </form>
+          <div class="form-ok" id="formOk">
+            <div class="okmark">✓</div>
+            <h3>送信が完了しました</h3>
+            <p>受付確認のメールを自動でお送りしています。<br>内容を確認のうえ、担当より2営業日以内にご連絡します。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <a class="logo" href="#top" aria-label="株式会社O-kun トップへ">
+        <span class="logo-lockup"><img src="data:image/webp;base64,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" alt="株式会社O-kun ロゴ" width="480" height="120" decoding="async"></span>
+      </a>
+      <nav class="foot-nav" aria-label="フッターメニュー">
+        <a href="#service">事業内容</a>
+        <a href="#speed">進め方</a>
+        <a href="#company">会社概要</a>
+        <a href="#contact">お問い合わせ</a>
+        <a class="ig" href="https://www.instagram.com/ohkun1121/" target="_blank" rel="noopener" aria-label="Instagramを開く">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><defs><radialGradient id="igFoot" cx="30%" cy="100%" r="115%"><stop offset="0" stop-color="#ffd600"/><stop offset=".28" stop-color="#ff7a00"/><stop offset=".55" stop-color="#ff0169"/><stop offset=".82" stop-color="#d300c5"/><stop offset="1" stop-color="#7638fa"/></radialGradient></defs><rect width="32" height="32" rx="8.5" fill="url(#igFoot)"/><rect x="7.4" y="7.4" width="17.2" height="17.2" rx="5.2" fill="none" stroke="#fff" stroke-width="2.15"/><circle cx="16" cy="16" r="4.25" fill="none" stroke="#fff" stroke-width="2.15"/><circle cx="22.05" cy="9.95" r="1.35" fill="#fff"/></svg>
+        </a>
+      </nav>
+    </div>
+    <div class="foot-btm">
+      <span>株式会社O-kun|徳島県徳島市のIT・AI企業(ホームページ制作/AI導入支援)</span>
+      <span>© 2025–2026 O-kun Inc.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+function toggleMenu(btn){
+  const nav=document.getElementById('gnav');
+  const open=nav.classList.toggle('open');
+  btn.setAttribute('aria-expanded',open);
+}
+document.querySelectorAll('#gnav a').forEach(a=>a.addEventListener('click',()=>{
+  document.getElementById('gnav').classList.remove('open');
+  document.querySelector('.menu-btn').setAttribute('aria-expanded','false');
+}));
+
+/* お問い合わせ:FormSubmitで送信し、送信者へ自動返信メールを送る */
+async function sendForm(e){
+  e.preventDefault();
+  const btn=document.getElementById('sendBtn');
+  const err=document.getElementById('formErr');
+  const form=document.getElementById('ctForm');
+  const honey=form.querySelector('input[name="_honey"]');
+  if(honey&&honey.value){ /* ボットはここで止める */
+    form.style.display='none';
+    document.getElementById('formOk').style.display='block';
+    return;
+  }
+  err.style.display='none';
+  btn.disabled=true;
+  btn.firstChild.textContent='送信しています…';
+  const name=document.getElementById('f-name').value.trim();
+  const mail=document.getElementById('f-mail').value.trim();
+  const kind=document.getElementById('f-kind').value;
+  const msg=document.getElementById('f-msg').value.trim()||"(未記入)";
+  const payload={
+    "お名前・会社名":name,
+    "email":mail,
+    "ご相談の種類":kind,
+    "ご相談内容":msg,
+    "_subject":"【O-kun】お問い合わせ:"+kind,
+    "_template":"table",
+    "_autoresponse":"株式会社O-kunです。お問い合わせを受け付けました。内容を確認のうえ、担当より2営業日以内にご連絡いたします。このメールは自動送信です。",
+    "_captcha":"false",
+    "_honey":""
+  };
+  const ctrl=new AbortController();
+  const timer=setTimeout(()=>ctrl.abort(),15000);
+  try{
+    const res=await fetch('https://formsubmit.co/ajax/ohkun1121@gmail.com',{
+      method:'POST',
+      headers:{'Content-Type':'application/json','Accept':'application/json'},
+      body:JSON.stringify(payload),
+      signal:ctrl.signal
+    });
+    if(!res.ok) throw new Error();
+    form.style.display='none';
+    document.getElementById('formOk').style.display='block';
+  }catch(_){
+    const sub=encodeURIComponent('【お問い合わせ】'+kind);
+    const body=encodeURIComponent('お名前・会社名: '+name+'\nメールアドレス: '+mail+'\nご相談の種類: '+kind+'\nご相談内容:\n'+msg);
+    err.innerHTML='送信できませんでした。お手数ですが、<a href="mailto:ohkun1121@gmail.com?subject='+sub+'&body='+body+'" style="color:inherit;text-decoration:underline;font-weight:700">こちらから直接メールで送信</a>いただくか、時間をおいてもう一度お試しください。';
+    err.style.display='block';
+    btn.disabled=false;
+    btn.firstChild.textContent='この内容で相談する';
+  }finally{
+    clearTimeout(timer);
+  }
+}
+
+</script>
+</body>
+</html>
